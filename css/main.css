@@ -1,0 +1,29 @@
+html {
+  font-family: "Noto Serif", serif;
+}
+
+header {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+
+
+.btn {
+  border: 3px solid #6e8c62;
+  background-color: #6e8c62;
+}
+
+.green {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+
+hr {
+  border-color: #70ad55;
+}
+
+fieldset {
+  border: none;
+}
