@@ -7,6 +7,13 @@ header {
   color: #fff;
 }
 
+select,
+input,
+textarea,
+input[type="checkbox"] + label::before,
+input[type="radio"] + label::before {
+  border-color: #6e8c62;
+}
 
 
 .btn {
@@ -27,3 +34,5 @@ hr {
 fieldset {
   border: none;
 }
+
+@media only screen and (min-width: 38em) {

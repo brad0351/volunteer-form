@@ -12,13 +12,15 @@
 <body>
 
 </body>
-</html
+</html>
 
-<header>
-  <div class="green push-2 wrapper pad-t pad-b gutter-1-2">
-    <h1>Apply to be a tree planter</h1>
-    <p class="mega">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
-  </div>
+<main>
+<form class="max-lenght">
+  <header>
+      <div class="green push-2 wrapper pad-t pad-b gutter-1-2">
+      <h1>Apply to be a tree planter</h1>
+      <p class="mega">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+    </div>
 </header>
 
 <div class="island-1-2 push">
@@ -29,7 +31,7 @@
         <label for="name">Full name</label>
         <input id="name" name="name" required>
         <p class="italic micro">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</P>
-
+        </div>
           <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-left">
             <label for="nickname">What should we call you?</label>
             <input id="nickname" name="nickname" required>
@@ -58,7 +60,6 @@
               <option>Straight-cut: XL</option>
             </select>
           </div>
-        </div>
         <div class="push unit [xs-1 s-1 m-1-2 l-1-2]">
           <label class="push-1-8" for="email">Email</label>
           <input id="email" name="email" type="email" required>
@@ -67,8 +68,9 @@
           <label class="push-1-8" for="number">Phone number<span class="optional italic">(optional)</span></label>
           <input id="number" name="number" type="tel" required>
         </div>
-      </div>
+       </div>
     </fieldset>
+
     <hr class="push-2">
 
     <fieldset>
@@ -104,12 +106,13 @@
           <label for="postal">Postal code</label>
           <input id="postal" name="postal" required>
         </div>
-      </div>
+</div>
     </fieldset>
     <fieldset class="push-1-8 pad-b-2">
       <legend class="giga push-1-8">What activities are you interested in?</legend>
       <div class="grid pad-t-1-2">
         <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] ">
+
           <div class="push-1-4">
             <input type="checkbox" id="digging">
             <label for="digging">Digging holes</label>
@@ -126,7 +129,6 @@
             <input type="checkbox" id="driving">
             <label for="driving">Driving people</label>
           </div>
-        </div>
 
         <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] ">
           <div class="push-1-4">
@@ -145,8 +147,10 @@
             <input type="checkbox" id="manage">
             <label for="manage">Managing people</label>
           </div>
-        </div>
-      </div>
+
+          </div>
+          </div>
+
     </fieldset>
     <fieldset>
       <legend>Do you have any experience with the following?</legend>
@@ -207,11 +211,16 @@
         </div>
       </div>
     </fieldset>
+
+    <hr>
+
     <fieldset>
       <legend class="giga pad-b-1-8 push-1-4">Do you have a valid driver's license?</legend>
       <div class="push">
         <input type="radio" name="question-1" id="yes-1">
         <label for="yes-1">Yes</label>
+      </div>
+      <div class="ib gutter-1-2 pad-t-1-8 pad-b-1-8 push-r">
         <input type="radio" name="question-1" id="no-1">
         <label class="gutter" for="no-1">No</label>
       </div>
@@ -220,40 +229,51 @@
       <legend class="giga pad-t-1-8 push-1-4">Do you have a pick-up truck you'd be willing to use?</legend>
       <div class="push">
         <input type="radio" name="question-2" id="yes-2">
-        <label for="yes-2">Yes</label>
+        <label for="yes-2">Yes</label
+      </div>
+      <div class="ib gutter-1-2 pad-t-1-8 pad-b-1-8 push-r">
         <input type="radio" name="question-2" id="no-2">
         <label class="gutter" for="no-2">No</label>
       </div>
     </fieldset>
+
     <fieldset>
       <legend class="giga pad-t-1-8 push-1-4">Do you have up-to-date first-aid certification?</legend>
       <div class="push">
         <input type="radio" name="question-3" id="yes-3">
         <label for="yes-3">Yes</label>
+        </div>
+         <div class="ib gutter-1-2 pad-t-1-8 pad-b-1-8 push-r">
         <input type="radio" name="question-3" id="no-3">
         <label class="gutter" for="no-3">No</label>
       </div>
     </fieldset>
+
     <hr class="push-2">
 
+<fieldset>
     <div class="push-2">
-      <label class="push-1-2 giga bold" for="message">Please let us know any comments or questions you may have. <span class="optional italic">(optional)</span></label>
+      <label class="push-1-2 giga bold" for="message">Please let us know any comments or questions you may have.
+      <span class="optional italic">(optional)</span></label>
       <textarea id="message"></textarea>
     </div>
-    <hr class="push-2">
+  </fieldset>
+
 
     <div class="text-center pad-t pad-b-2">
       <button class="giga bold btn d-green gutter-2" type="submit">Apply</button>
     </div>
-  </form>
-</main>
 
+
+<div class="pad-t pad-b wrapper">
 <footer class="green">
-  <div class="pad-t pad-b wrapper">
     <small>© Tree Hugger International Organization</small>
-  </div>
 </footer>
+</div>
 
+
+</form>
+</main>
 </body>
 </html>
 
