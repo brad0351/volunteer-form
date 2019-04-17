@@ -1,10 +1,14 @@
 html {
   font-family: "Noto Serif", serif;
 }
-
-header {
+.masthead,
+footer {
   background-color: #70ad55;
   color: #fff;
+}
+
+.text-green {
+  color: #70ad55;
 }
 
 select,
@@ -15,6 +19,9 @@ input[type="radio"] + label::before {
   border-color: #6e8c62;
 }
 
+fieldset {
+  border: none;
+}
 
 .btn {
   border: 3px solid #6e8c62;
@@ -29,10 +36,10 @@ input[type="radio"] + label::before {
 
 hr {
   border-color: #70ad55;
+  opacity: .25;
 }
 
-fieldset {
-  border: none;
-}
 
-@media only screen and (min-width: 38em) {
+textarea {
+  height: 10em;
+}
