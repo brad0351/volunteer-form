@@ -1,6 +1,7 @@
 html {
   font-family: "Noto Serif", serif;
 }
+
 .masthead,
 footer {
   background-color: #70ad55;
@@ -33,12 +34,10 @@ fieldset {
   color: #fff;
 }
 
-
 hr {
   border-color: #70ad55;
   opacity: .25;
 }
-
 
 textarea {
   height: 10em;
